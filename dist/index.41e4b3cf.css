@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #150e56;
+  height: 2rem;
+  display: flex;
+}
+header button {
+  height: 100%;
+  width: 4rem;
+  background: #150e56;
+  color: #8fd6e1;
+  box-shadow: none;
+  border: 0;
+  transition: 0.3s;
+}
+header button:hover {
+  background: #1597bb;
+}
+header button:focus {
+  border: none;
+  box-shadow: none;
+  background: #1597bb;
+  outline: none;
+}
+/*# sourceMappingURL=index.41e4b3cf.css.map */
