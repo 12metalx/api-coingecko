@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@mixin card{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
+    background: #1597bb;
+    padding: 1rem 1rem 1rem 0.5rem;
+    justify-items: center;
+    color: #7b113a;
+    font-family: 'Inter',sans-serif;
+    section{
+        width: 15rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background: #8fd6e1;
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            
+        }
+        h3{
+            padding: 0.2rem;
+            font-size: 1rem;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 1rem;
+            width: 10rem;
+        }
+    }
+}

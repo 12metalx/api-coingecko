@@ -2,15 +2,17 @@ header{
     background-color: #150e56;
     height: 2rem;
     display: flex;
-    
+
     button{
         height: 100%;
-        width: 4rem;
+        width: auto;
         background: #150e56;
         color: #8fd6e1;
         box-shadow: none;
         border: 0; 
         transition: 0.3s;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
         }
     button:hover{
         background: #1597bb;
@@ -19,7 +21,9 @@ header{
     button:focus{
         border: none;
         box-shadow: none;
-        background: #1597bb;
+        
+        background: #7b113a;
         outline: none;
+        transition: 0.3s;
     }
 }
